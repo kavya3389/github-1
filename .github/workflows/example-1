@@ -2,8 +2,8 @@ name: pipeline for github
 on: push
 jobs: 
   firstjob:
-  runs-on: ubuntu-latest
-  steps:
-    - name: welcome message
-      run: echo "hi welcome to the bhaskar dasari vlogs"
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome message
+        run: echo "hi welcome to the bhaskar dasari vlogs"
     
